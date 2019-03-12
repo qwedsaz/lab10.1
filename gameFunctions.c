@@ -36,7 +36,6 @@ initializeBlankString(int wordLen, char revealedLetters[]) {
   for (i = 0; i < wordLen; ++i) {
     revealedLetters[i] = '_';
   }
-  return;
 }
 
 printWithSpaces(char revealedLetters[]) {
@@ -49,7 +48,6 @@ printWithSpaces(char revealedLetters[]) {
       printf(" %c", revealedLetters[i]);
     }
   }
-  return;
 }
 
 revealGuessedLetter(char word[], char revealedLetters[], char guess) {
