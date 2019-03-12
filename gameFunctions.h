@@ -23,4 +23,4 @@ bool checkGuess(char word[], char revealedLetters[]);
 /*
  * Start the game with all required functions inside
  */
-void startGame(char word[25]);
+void startGame(char word[]);
