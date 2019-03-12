@@ -26,7 +26,6 @@ printWithSpaces(char revealedLetters[]) {
 }
 
 revealGuessedLetter(char word[], char revealedLetters[], char guess) {
-  typedef int bool;
   bool key = 0;
   int i = 0;
   for (i = 0; i < strlen(word); ++i) {
@@ -39,7 +38,7 @@ revealGuessedLetter(char word[], char revealedLetters[], char guess) {
 }
 
 checkGuess(char word[], char revealedLetters[]) {
-  return strcmp(word, revealedLetters) != 0;
+  return strcmp(word, revealedLetters) == 0;
 }
 
 void startGame(char word[25]) {
