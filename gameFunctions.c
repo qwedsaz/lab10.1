@@ -4,7 +4,7 @@
 
 #include "gameFunctions.h"
 
-initializeBlankString(int wordLen, char revealedLetters[]) {
+initializeBlankString(int wordLen, char *revealedLetters) {
   int i;
   for (i = 0; i < wordLen; ++i) {
     revealedLetters[i] = '_';
@@ -12,7 +12,7 @@ initializeBlankString(int wordLen, char revealedLetters[]) {
   return;
 }
 
-printWithSpaces(char revealedLetters[]) {
+printWithSpaces(char *revealedLetters) {
   int i = 0;
   for (i = 0; i < strlen(revealedLetters); ++i) {
     if (i == 0) {
