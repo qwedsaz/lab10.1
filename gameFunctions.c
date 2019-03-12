@@ -22,7 +22,7 @@ printWithSpaces(char revealedLetters[]) {
       printf(" %c", revealedLetters[i]);
     }
   }
-    return;
+  return;
 }
 
 revealGuessedLetter(char word[], char revealedLetters[], char guess) {
