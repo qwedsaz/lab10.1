@@ -14,7 +14,7 @@ initializeBlankString(int wordLen, char revealedLetters[]) {
 
 printWithSpaces(char revealedLetters[]) {
   int i = 0;
-  for (i = 0; i < strlen(revealdLetters); ++i) {
+  for (i = 0; i < strlen(revealedLetters); ++i) {
     if (i == 0) {
       printf("%c", revealedLetters[i]);
     }
